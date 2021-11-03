@@ -971,7 +971,7 @@ footer .social-links {
     height: 580px;
     left: 315px;
     top: -22px;
-    z-index: -123;
+    z-index: -1;
     background: #55ff08;
     filter: blur(1000px);
   }
@@ -982,7 +982,7 @@ footer .social-links {
     height: 580px;
     left: -519px;
     top: 825px;
-    z-index: -123;
+    z-index: -1;
     background: #0124fe;
     filter: blur(1000px);
   }
@@ -993,7 +993,7 @@ footer .social-links {
     height: 580px;
     left: 315px;
     top: 1757px;
-    z-index: -123;
+    z-index: -1;
     background: #da0a3c;
     filter: blur(1000px);
   }
@@ -1004,7 +1004,7 @@ footer .social-links {
     height: 580px;
     left: -519px;
     top: 2545px;
-    z-index: -123;
+    z-index: -1;
     background: #23bbff;
     filter: blur(1000px);
   }
