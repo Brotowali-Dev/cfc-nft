@@ -172,9 +172,9 @@ span {
 .hero-text img {
   height: 272px;
   position: absolute;
-  top: 50%;
+  top: 47%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-47%, -50%);
 }
 
 .freemint span {
@@ -229,12 +229,14 @@ button {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-self: center;
   padding: 18px 20px;
   width: 164.5px;
   height: 64px;
   background: rgba(255, 255, 255, 0.05);
   backdrop-filter: blur(100px);
   cursor: pointer;
+  font-family: Clash Display;
   font-style: normal;
   font-weight: 600;
   font-size: 24px;
@@ -248,11 +250,11 @@ button span {
   font-size: 14px;
   line-height: 24px;
   text-align: right;
-  margin-left: 16px;
+  margin-left: 28px;
   color: #ffffff;
 }
 
-button:hover {
+button.active {
   background: rgba(255, 255, 255, 0.05);
   border: 1px solid #55ff08;
   box-shadow: 0px 0px 0px 5px rgba(85, 255, 8, 0.2);
@@ -270,7 +272,31 @@ button:hover {
   justify-content: space-between;
 }
 
+.quantity-box.disabled {
+  display: none;
+}
+
 .quantity-box img {
+  cursor: pointer;
+}
+.free-quantity {
+  display: none;
+}
+.free-quantity.active {
+  display: block;
+}
+.quantity {
+  display: flex;
+  align-items: center;
+  padding: 20px 24px;
+  width: 349px;
+  height: 80px;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(100px);
+  justify-content: space-between;
+}
+
+.quantity img {
   cursor: pointer;
 }
 

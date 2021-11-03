@@ -11,6 +11,7 @@ body {
   background-repeat: repeat;
   color: #fff;
   overflow-x: hidden;
+  z-index: 1;
 }
 
 header {
@@ -170,9 +171,9 @@ span {
 .hero-text img {
   height: 272px;
   position: absolute;
-  top: 50%;
+  top: 47%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-47%, -50%);
 }
 
 .counter {
