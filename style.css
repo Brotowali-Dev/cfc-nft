@@ -162,6 +162,7 @@ span {
   align-items: center;
   justify-content: center;
   gap: 40px;
+  padding-bottom: 120px;
 }
 
 .hero-text {
@@ -301,6 +302,7 @@ footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 35px 0;
 }
 
 footer .social-links nav ul {
@@ -438,6 +440,8 @@ footer .social-links {
   #hero {
     height: 662px;
     gap: 28px;
+
+    padding-bottom: 0;
   }
   span {
     font-family: Clash Display;
@@ -698,6 +702,8 @@ footer .social-links {
   #hero {
     height: 520px;
     gap: 24px;
+
+    padding-bottom: 0;
   }
   #about {
     height: 648px;
