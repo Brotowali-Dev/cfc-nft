@@ -30,11 +30,15 @@ close.addEventListener('click', () => {
 });
 
 plus.addEventListener('click', () => {
+  if (num === 4) {
+    quantityBox.classList.add('disabled');
+    freeQuantity.classList.add('active');
+  }
   if (num >= 4) {
-    num = 0;
+    num = 4;
   }
   num++;
-  document.getElementById('count').innerHTML = num;
+  document.getElementById('count').innerText = num;
 });
 
 minus.addEventListener('click', () => {

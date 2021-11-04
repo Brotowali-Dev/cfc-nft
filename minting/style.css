@@ -5,12 +5,15 @@
 }
 
 body {
+  position: relative;
+  z-index: 999;
   background-color: #000a14;
   font-family: 'Clash Display', sans-serif;
   background-image: url('./assets/Texture.png');
   background-repeat: repeat;
   color: #fff;
   overflow-x: hidden;
+  z-index: 1;
 }
 
 header {
@@ -99,7 +102,21 @@ span {
   line-height: 24px;
   color: #ffffff;
 }
+#count,
+.num {
+  font-family: Clash Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 40px;
+  /* identical to box height, or 125% */
 
+  text-align: center;
+
+  /* Base/Light/100% */
+
+  color: #ffffff;
+}
 .container {
   max-width: 1200px;
   margin: 0 auto;
@@ -335,6 +352,10 @@ button.active {
   gap: 72px;
 }
 
+#membership p {
+  text-align: center;
+}
+
 .gap-1 {
   gap: 120px;
 }
@@ -377,6 +398,9 @@ video {
 }
 #faq .col {
   align-items: flex-start;
+}
+.question h4 {
+  width: 550px;
 }
 .question p {
   width: 550px;
@@ -477,8 +501,291 @@ footer .social-links {
   filter: blur(1000px);
 }
 
+.copyright {
+  font-family: Clash Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 32px;
+  /* identical to box height, or 178% */
+
+  text-align: right;
+
+  /* Base/Light/100% */
+
+  color: #ffffff;
+}
+
 /* Tablet */
-@media only screen and (min-width: 601px) and (max-width: 1108px) {
+@media only screen and (min-width: 801px) and (max-width: 1108px) {
+  .mobile-nav {
+    display: block;
+  }
+  .question h4 {
+    width: 351px;
+  }
+  .btn-menu,
+  .btn-close {
+    cursor: pointer;
+    height: 28px;
+    width: 28px;
+  }
+  .menubar .mobile-nav .heading {
+    max-width: 772px;
+    margin: 0 auto;
+  }
+  .menubar {
+    height: 100vh;
+    width: 100%;
+    background-color: #000a14;
+    top: 0;
+    left: 0;
+    z-index: 333;
+    display: none;
+  }
+
+  .menubar.active {
+    height: 100vh;
+    width: 100%;
+    background-color: #000a14;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 333;
+    display: block;
+  }
+  .menubar a {
+    font-family: Clash Display;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 120%;
+    color: #ffffff;
+  }
+  .heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 124px;
+  }
+  header {
+    display: none;
+  }
+  .menubar nav ul {
+    display: flex;
+    list-style-type: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 24px;
+  }
+
+  .menubar .social-links nav ul {
+    flex-direction: row;
+  }
+
+  .container {
+    max-width: 772px;
+    margin: 0 auto;
+  }
+  #hero {
+    height: 662px;
+    gap: 28px;
+  }
+  span {
+    font-family: Clash Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    color: #ffffff;
+  }
+  h1 {
+    font-family: Clash Display;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 96px;
+    line-height: 96px;
+  }
+  h3 {
+    font-family: Clash Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+  }
+  #about {
+    height: 388px;
+  }
+  h2 {
+    font-family: Clash Display;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 32px;
+    color: #ffffff;
+  }
+  p {
+    font-family: Clash Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffffff;
+  }
+  .gap {
+    gap: 71px;
+  }
+  .left-content {
+    width: 311px;
+  }
+  .right-content {
+    width: 280px;
+    height: 271px;
+  }
+
+  .right-content img {
+    width: 280px;
+    height: 271px;
+    object-fit: cover;
+  }
+  #membership {
+    height: 652px;
+    gap: 24px;
+  }
+  #membership h2 {
+    margin-bottom: 40px;
+  }
+  .gap-1 {
+    gap: 48px;
+  }
+
+  video {
+    width: 268px;
+    height: 268px;
+    margin-bottom: 32px;
+  }
+
+  h4 {
+    font-family: Clash Display;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #ffffff;
+  }
+
+  .col p {
+    width: 268px;
+    text-align: center;
+    margin-top: 8px;
+  }
+  #faq {
+    height: 824px;
+  }
+  .pot {
+    width: 220px;
+    height: 220px;
+  }
+
+  .pot img {
+    width: 220px;
+    height: 220px;
+    object-fit: fill;
+  }
+
+  .question p {
+    width: 351px;
+    margin-top: 8px;
+    font-family: Clash Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+    text-align: left;
+    color: #ffffff;
+  }
+
+  .mt-1 {
+    margin-top: 48px;
+  }
+
+  .justify {
+    width: 311px;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .question p {
+    font-family: Clash Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffffff;
+  }
+  #faq .col {
+    align-items: flex-start;
+  }
+
+  .gap-2 {
+    gap: 40px;
+  }
+
+  .green-neon {
+    position: absolute;
+    width: 580px;
+    height: 580px;
+    left: 544px;
+    top: -22px;
+    z-index: -123;
+    background: #55ff08;
+    filter: blur(1000px);
+  }
+
+  .blue-neon {
+    position: absolute;
+    width: 580px;
+    height: 580px;
+    left: -290px;
+    top: 825px;
+    z-index: -123;
+    background: #0124fe;
+    filter: blur(1000px);
+  }
+
+  .red-neon {
+    position: absolute;
+    width: 580px;
+    height: 580px;
+    left: 544px;
+    top: 1757px;
+    z-index: -123;
+    background: #da0a3c;
+    filter: blur(1000px);
+  }
+
+  .light-blue-neon {
+    position: absolute;
+    width: 580px;
+    height: 580px;
+    left: -290px;
+    top: 2545px;
+    z-index: -123;
+    background: #23bbff;
+    filter: blur(1000px);
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 800px) {
+  .container {
+    padding: 0 40px;
+  }
+  .question h4 {
+    width: 351px;
+  }
   .mobile-nav {
     display: block;
   }
@@ -988,6 +1295,8 @@ footer .social-links {
   footer {
     height: 216px;
     flex-direction: column;
+    padding: 40px;
+    gap: 20px;
   }
   footer .social-links {
     margin-left: 0px;
@@ -1034,5 +1343,12 @@ footer .social-links {
     z-index: -1;
     background: #23bbff;
     filter: blur(1000px);
+  }
+  .question h4 {
+    width: 100%;
+  }
+  .mt-0 {
+    margin-top: 40px;
+    margin-bottom: 40px;
   }
 }
