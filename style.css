@@ -160,6 +160,7 @@ span {
 #hero {
   height: 620px;
   margin-top: 32px;
+  margin-bottom: 200px;
   display: flex;
   flex-direction: column;
   align-items: center;
