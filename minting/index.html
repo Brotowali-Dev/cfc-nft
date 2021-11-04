@@ -117,18 +117,29 @@
     <section id="mint">
       <h2>Mint a Coffee</h2>
       <div class="row gap-0">
-        <button>Free <span>Max. 1</span></button>
+        <button class="button-free active">Free <span>Max. 1</span></button>
 
-        <button>Paid <span>Max. 4</span></button>
+        <button class="button-paid">Paid <span>Max. 4</span></button>
       </div>
-      <div class="quantity-box">
-        <img
-          src="./assets/minting/Icon/32/Substract.svg"
-          class="minus"
-          alt="minus"
-        />
+      <div class="quantity-box disabled">
+        <img src="./assets/Substract.svg" class="minus" alt="minus" />
         <p id="count">1</p>
-        <img src="./assets/minting/Icon/32/Plus.svg" class="plus" alt="plus" />
+        <img src="./assets/Plus.svg" class="plus" alt="plus" />
+      </div>
+      <div class="free-quantity active">
+        <div class="quantity">
+          <img
+            src="./assets/minting/Icon/32/Substract.svg"
+            class="minus"
+            alt="minus"
+          />
+          <p class="num">1</p>
+          <img
+            src="./assets/minting/Icon/32/Plus.svg"
+            class="plus"
+            alt="plus"
+          />
+        </div>
       </div>
       <div class="wrapper">
         <a href="#" class="btn-primary">connect wallet</a>
@@ -232,7 +243,7 @@
       </div>
     </section>
 
-    <footer>
+    <footer class="mt-0">
       <div class="logo">
         <img src="./assets/logo.svg" alt="CoffeeJunkieClub" />
       </div>
