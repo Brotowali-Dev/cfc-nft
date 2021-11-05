@@ -9,7 +9,7 @@ body {
   z-index: 999;
   background-color: #000a14;
   font-family: 'Clash Display', sans-serif;
-  background-image: url('./assets/Texture.png');
+  background-image: url('./assets/Texture_100.png');
   background-repeat: repeat;
   color: #fff;
   overflow-x: hidden;
