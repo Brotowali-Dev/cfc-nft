@@ -8,7 +8,7 @@ body {
   font-family: 'Clash Display', sans-serif;
   /* background: url('./assets/grain.svg'); */
   background-image: url('./assets/Texture_100.png');
-  background-size: 10px;
+  background-size: 300px;
   background-color: #000a14;
   background-repeat: repeat;
   color: #fff;
@@ -456,7 +456,7 @@ footer .social-links {
     margin: 0 auto;
   }
   #hero {
-    height: 662px;
+    height: 528px;
     gap: 28px;
     margin-bottom: 140px;
     padding-bottom: 0;
@@ -749,7 +749,7 @@ footer .social-links {
     margin: 0 auto;
   }
   #hero {
-    height: 662px;
+    height: 528px;
     gap: 28px;
     margin-bottom: 140px;
     padding-bottom: 0;
@@ -1032,7 +1032,7 @@ footer .social-links {
     padding: 0 24px;
   }
   #hero {
-    height: 520px;
+    height: 100%;
     gap: 24px;
     margin-bottom: 104px;
     padding-bottom: 0;

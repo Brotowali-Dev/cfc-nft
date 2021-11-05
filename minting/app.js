@@ -34,7 +34,7 @@ close.addEventListener('click', () => {
 });
 
 plus.addEventListener('click', () => {
-  if (num === 4) {
+  if (num === 3) {
     if (max.classList.contains('disabled')) {
       max.classList.remove('disabled');
       quantityBox.classList.add('disabled');
