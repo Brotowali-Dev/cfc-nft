@@ -532,6 +532,7 @@ footer .social-links {
 @media only screen and (min-width: 801px) and (max-width: 1108px) {
   #mint {
     margin-bottom: 140px;
+    gap: 32px;
   }
   .copyright {
     font-family: Clash Display;
@@ -812,6 +813,7 @@ footer .social-links {
 @media only screen and (min-width: 601px) and (max-width: 800px) {
   #mint {
     margin-bottom: 140px;
+    gap: 32px;
   }
   .copyright {
     font-family: Clash Display;
@@ -1096,6 +1098,7 @@ footer .social-links {
 @media only screen and (max-width: 600px) {
   #mint {
     margin-bottom: 104px;
+    gap: 28px;
   }
   .copyright {
     font-family: Clash Display;
