@@ -386,6 +386,7 @@ video {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-left: 40px;
 }
 
 .pot {
@@ -428,7 +429,7 @@ video {
   width: 357px;
   justify-content: space-between;
   align-items: flex-start;
-  margin-left: 50px;
+  margin-left: 40px;
 }
 
 .gap-2 {
@@ -1141,6 +1142,7 @@ footer .social-links {
   }
   #faq {
     height: 991px;
+    padding-left: 0;
   }
   header {
     height: 76px;
