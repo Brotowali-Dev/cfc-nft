@@ -5,14 +5,14 @@
 }
 
 body {
-  position: relative;
-  z-index: 999;
-  background-color: #000a14;
   font-family: 'Clash Display', sans-serif;
-  background-image: url('./assets/Texture.png');
+  /* background: url('./assets/grain.svg'); */
+  background-image: url('./assets/Texture_100.png');
+  background-color: #000a14;
   background-repeat: repeat;
   color: #fff;
   overflow-x: hidden;
+  position: relative;
   z-index: 1;
 }
 
@@ -160,11 +160,11 @@ span {
 #hero {
   height: 620px;
   margin-top: 32px;
+  margin-bottom: 200px;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 40px;
-  padding-bottom: 120px;
 }
 
 .hero-text {
@@ -296,6 +296,7 @@ video {
   width: 357px;
   justify-content: space-between;
   align-items: flex-start;
+  margin-left: 50px;
 }
 
 .gap-2 {
@@ -561,7 +562,9 @@ footer .social-links {
     height: 220px;
     object-fit: fill;
   }
-
+  footer .social-links {
+    margin-left: 100px;
+  }
   .question p {
     width: 351px;
     margin-top: 8px;
@@ -582,6 +585,7 @@ footer .social-links {
     width: 311px;
     justify-content: space-between;
     align-items: flex-start;
+    margin-left: 0;
   }
   .question p {
     font-family: Clash Display;
@@ -780,6 +784,10 @@ footer .social-links {
     height: 271px;
   }
 
+  footer .social-links {
+    margin-left: 60px;
+  }
+
   .right-content img {
     width: 280px;
     height: 271px;
@@ -850,6 +858,7 @@ footer .social-links {
     width: 311px;
     justify-content: space-between;
     align-items: flex-start;
+    margin-left: 0;
   }
   .question p {
     font-family: Clash Display;
@@ -992,7 +1001,7 @@ footer .social-links {
   #hero {
     height: 520px;
     gap: 24px;
-
+    margin-bottom: 104px;
     padding-bottom: 0;
   }
   #about {
@@ -1162,6 +1171,7 @@ footer .social-links {
     justify-content: space-between;
     flex-direction: column-reverse;
     align-items: flex-start;
+    margin-left: 0;
   }
 
   .gap-2 {

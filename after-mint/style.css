@@ -168,6 +168,7 @@ span {
 
 #hero {
   margin-top: 32px;
+  margin-bottom: 200px;
   height: 600px;
   display: flex;
   flex-direction: column;
@@ -412,6 +413,7 @@ video {
   width: 357px;
   justify-content: space-between;
   align-items: flex-start;
+  margin-left: 50px;
 }
 
 .gap-2 {
@@ -501,7 +503,9 @@ footer .social-links {
   .mobile-nav {
     display: block;
   }
-
+  footer .social-links {
+    margin-left: 100px;
+  }
   .btn-menu,
   .btn-close {
     cursor: pointer;
@@ -695,6 +699,7 @@ footer .social-links {
     width: 311px;
     justify-content: space-between;
     align-items: flex-start;
+    margin-left: 0;
   }
   .question p {
     font-family: Clash Display;
@@ -767,7 +772,9 @@ footer .social-links {
   .mobile-nav {
     display: block;
   }
-
+  footer .social-links {
+    margin-left: 60px;
+  }
   .btn-menu,
   .btn-close {
     cursor: pointer;
@@ -961,6 +968,7 @@ footer .social-links {
     width: 311px;
     justify-content: space-between;
     align-items: flex-start;
+    margin-left: 0;
   }
   .question p {
     font-family: Clash Display;
@@ -1099,6 +1107,7 @@ footer .social-links {
   #hero {
     height: 520px;
     gap: 24px;
+    margin-bottom: 104px;
   }
   #about {
     height: 648px;
@@ -1268,6 +1277,7 @@ footer .social-links {
     justify-content: space-between;
     flex-direction: column-reverse;
     align-items: flex-start;
+    margin-left: 0;
   }
 
   .gap-2 {
