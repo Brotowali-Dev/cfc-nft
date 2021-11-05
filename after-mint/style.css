@@ -575,6 +575,7 @@ footer .social-links {
   #hero {
     height: 662px;
     gap: 28px;
+    margin-bottom: 140px;
   }
   span {
     font-family: Clash Display;
@@ -767,6 +768,15 @@ footer .social-links {
 }
 
 @media only screen and (min-width: 601px) and (max-width: 800px) {
+  .copyright {
+    font-family: Clash Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: right;
+    color: #ffffff;
+  }
   .container {
     padding: 0 40px;
   }
@@ -844,6 +854,7 @@ footer .social-links {
   #hero {
     height: 662px;
     gap: 28px;
+    margin-bottom: 140px;
   }
   span {
     font-family: Clash Display;
@@ -1037,6 +1048,15 @@ footer .social-links {
 
 /* Mobile */
 @media only screen and (max-width: 600px) {
+  .copyright {
+    font-family: Clash Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: right;
+    color: #ffffff;
+  }
   .mobile-nav {
     display: block;
   }

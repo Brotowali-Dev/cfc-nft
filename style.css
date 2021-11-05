@@ -8,6 +8,7 @@ body {
   font-family: 'Clash Display', sans-serif;
   /* background: url('./assets/grain.svg'); */
   background-image: url('./assets/Texture_100.png');
+  background-size: 10px;
   background-color: #000a14;
   background-repeat: repeat;
   color: #fff;
@@ -457,7 +458,7 @@ footer .social-links {
   #hero {
     height: 662px;
     gap: 28px;
-
+    margin-bottom: 140px;
     padding-bottom: 0;
   }
   span {
@@ -654,9 +655,27 @@ footer .social-links {
     background: #23bbff;
     filter: blur(1000px);
   }
+  .copyright {
+    font-family: Clash Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: right;
+    color: #ffffff;
+  }
 }
 
 @media only screen and (min-width: 601px) and (max-width: 800px) {
+  .copyright {
+    font-family: Clash Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: right;
+    color: #ffffff;
+  }
   .container {
     padding: 0 40px;
   }
@@ -732,7 +751,7 @@ footer .social-links {
   #hero {
     height: 662px;
     gap: 28px;
-
+    margin-bottom: 140px;
     padding-bottom: 0;
   }
   span {
@@ -931,6 +950,15 @@ footer .social-links {
 
 /* Mobile */
 @media only screen and (max-width: 600px) {
+  .copyright {
+    font-family: Clash Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: right;
+    color: #ffffff;
+  }
   .mobile-nav {
     display: block;
   }
