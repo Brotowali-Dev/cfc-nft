@@ -242,7 +242,6 @@ span {
 .gap-0 {
   gap: 20px;
 }
-
 button {
   border: none;
   display: flex;
@@ -261,6 +260,7 @@ button {
   font-size: 24px;
   line-height: 28px;
   color: #ffffff;
+  border: 1px solid transparent;
 }
 #mint .wrapper {
   position: relative;
@@ -273,15 +273,15 @@ button span {
   font-size: 14px;
   line-height: 24px;
   text-align: right;
-  margin-left: 28px;
+  margin-left: 25px;
   color: #ffffff;
 }
 
 button.active {
   background: rgba(255, 255, 255, 0.05);
-  border: 1px solid #55ff08;
   box-shadow: 0px 0px 0px 5px rgba(85, 255, 8, 0.2);
   backdrop-filter: blur(100px);
+  border: 1px solid #55ff08;
 }
 
 .quantity-box {
@@ -613,7 +613,7 @@ footer .social-links {
     margin: 0 auto;
   }
   #hero {
-    height: 662px;
+    height: 528px;
     gap: 28px;
     margin-bottom: 0;
   }
@@ -896,7 +896,7 @@ footer .social-links {
     margin: 0 auto;
   }
   #hero {
-    height: 662px;
+    height: 528px;
     gap: 28px;
     margin-bottom: 140px;
   }
@@ -1171,7 +1171,7 @@ footer .social-links {
     padding: 0 24px;
   }
   #hero {
-    height: 520px;
+    height: 100%;
     gap: 24px;
     margin-bottom: 104px;
   }
