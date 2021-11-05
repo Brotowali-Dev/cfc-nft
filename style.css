@@ -174,10 +174,11 @@ span {
 
 .hero-text img {
   height: 272px;
+  width: 272px;
   position: absolute;
-  top: 47%;
+  top: 50%;
   left: 50%;
-  transform: translate(-47%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .counter {
@@ -458,7 +459,7 @@ footer .social-links {
   #hero {
     height: 528px;
     gap: 28px;
-    margin-bottom: 120px;
+    margin-bottom: 100px;
     padding-bottom: 0;
   }
   span {
@@ -750,7 +751,7 @@ footer .social-links {
   #hero {
     height: 528px;
     gap: 28px;
-    margin-bottom: 120px;
+    margin-bottom: 100px;
     padding-bottom: 0;
   }
   span {
