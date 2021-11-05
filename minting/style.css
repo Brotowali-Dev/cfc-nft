@@ -106,7 +106,7 @@ span {
 .num {
   font-family: Clash Display;
   font-style: normal;
-  font-weight: normal;
+  font-weight: 500;
   font-size: 32px;
   line-height: 40px;
   /* identical to box height, or 125% */
@@ -174,12 +174,12 @@ span {
 }
 
 #hero {
-  height: 660px;
+  height: 492px;
+  margin-top: 32px;
   margin-bottom: 200px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
   gap: 40px;
 }
 
@@ -230,12 +230,13 @@ span {
 }
 
 #mint {
-  height: 560px;
+  height: 380px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  gap: 20px;
+  justify-content: flex-start;
+  gap: 40px;
+  margin-bottom: 200px;
 }
 
 .gap-0 {
@@ -427,6 +428,7 @@ video {
   width: 357px;
   justify-content: space-between;
   align-items: flex-start;
+  margin-left: 50px;
 }
 
 .gap-2 {
@@ -581,6 +583,9 @@ footer .social-links {
     margin-top: 40px;
     gap: 24px;
   }
+  footer .social-links {
+    margin-left: 100px;
+  }
 
   .menubar .social-links nav ul {
     flex-direction: row;
@@ -686,6 +691,7 @@ footer .social-links {
   }
   #faq {
     height: 824px;
+    padding: 0;
   }
   .pot {
     width: 220px;
@@ -718,6 +724,7 @@ footer .social-links {
     width: 311px;
     justify-content: space-between;
     align-items: flex-start;
+    margin-left: 0;
   }
   .question p {
     font-family: Clash Display;
@@ -851,7 +858,9 @@ footer .social-links {
   .menubar .social-links nav ul {
     flex-direction: row;
   }
-
+  footer .social-links {
+    margin-left: 60px;
+  }
   .container {
     max-width: 772px;
     margin: 0 auto;
@@ -952,6 +961,7 @@ footer .social-links {
   }
   #faq {
     height: 824px;
+    padding: 0;
   }
   .pot {
     width: 220px;
@@ -984,6 +994,7 @@ footer .social-links {
     width: 311px;
     justify-content: space-between;
     align-items: flex-start;
+    margin-left: 0;
   }
   .question p {
     font-family: Clash Display;
@@ -1119,6 +1130,7 @@ footer .social-links {
   #hero {
     height: 520px;
     gap: 24px;
+    margin-bottom: 104px;
   }
   #about {
     height: 648px;
@@ -1288,6 +1300,7 @@ footer .social-links {
     justify-content: space-between;
     flex-direction: column-reverse;
     align-items: flex-start;
+    margin-left: 0;
   }
 
   .gap-2 {
