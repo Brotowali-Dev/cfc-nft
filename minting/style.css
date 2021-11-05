@@ -9,7 +9,7 @@ body {
   z-index: 999;
   background-color: #000a14;
   font-family: 'Clash Display', sans-serif;
-  background-image: url('./assets/Texture.png');
+  background-image: url('./assets/Texture_100.png');
   background-repeat: repeat;
   color: #fff;
   overflow-x: hidden;
@@ -138,6 +138,10 @@ span {
   gap: 28px;
 }
 
+#mint .clear {
+  margin-top: 0;
+}
+
 .wrapper {
   position: relative;
   margin-top: 40px;
@@ -189,10 +193,11 @@ span {
 
 .hero-text img {
   height: 272px;
+  width: 272px;
   position: absolute;
-  top: 47%;
+  top: 50%;
   left: 50%;
-  transform: translate(-47%, -50%);
+  transform: translate(-50%, -50%);
 }
 
 .freemint span {
@@ -235,8 +240,8 @@ span {
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  gap: 40px;
   margin-bottom: 200px;
+  gap: 40px;
 }
 
 .gap-0 {
@@ -528,6 +533,7 @@ footer .social-links {
 @media only screen and (min-width: 801px) and (max-width: 1108px) {
   #mint {
     margin-bottom: 140px;
+    gap: 32px;
   }
   .copyright {
     font-family: Clash Display;
@@ -808,6 +814,7 @@ footer .social-links {
 @media only screen and (min-width: 601px) and (max-width: 800px) {
   #mint {
     margin-bottom: 140px;
+    gap: 32px;
   }
   .copyright {
     font-family: Clash Display;
@@ -1092,6 +1099,7 @@ footer .social-links {
 @media only screen and (max-width: 600px) {
   #mint {
     margin-bottom: 104px;
+    gap: 28px;
   }
   .copyright {
     font-family: Clash Display;
