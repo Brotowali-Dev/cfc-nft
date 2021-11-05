@@ -615,7 +615,7 @@ footer .social-links {
   #hero {
     height: 528px;
     gap: 28px;
-    margin-bottom: 0;
+    margin-bottom: 40px;
   }
   span {
     font-family: Clash Display;
@@ -898,7 +898,7 @@ footer .social-links {
   #hero {
     height: 528px;
     gap: 28px;
-    margin-bottom: 140px;
+    margin-bottom: 40px;
   }
   span {
     font-family: Clash Display;
