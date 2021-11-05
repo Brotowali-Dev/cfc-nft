@@ -13,6 +13,10 @@ const minus = document.querySelector('.minus');
 const quantityBox = document.querySelector('.quantity-box');
 const freeQuantity = document.querySelector('.free-quantity');
 
+// min and max number
+const min = document.querySelector('.min');
+const max = document.querySelector('.max');
+
 var num = document.getElementById('count').innerHTML;
 
 // Video autoplay
@@ -31,8 +35,10 @@ close.addEventListener('click', () => {
 
 plus.addEventListener('click', () => {
   if (num === 4) {
-    quantityBox.classList.add('disabled');
-    freeQuantity.classList.add('active');
+    if (max.classList.contains('disabled')) {
+      max.classList.remove('disabled');
+      quantityBox.classList.add('disabled');
+    }
   }
   if (num >= 4) {
     num = 4;
@@ -42,7 +48,11 @@ plus.addEventListener('click', () => {
 });
 
 minus.addEventListener('click', () => {
-  if (num <= 0) {
+  if (num === 1) {
+    if (min.classList.contains('disabled')) {
+      min.classList.remove('disabled');
+      quantityBox.classList.add('disabled');
+    }
     num = 1;
   }
   num--;
@@ -50,10 +60,6 @@ minus.addEventListener('click', () => {
 });
 
 paidbtn.addEventListener('click', () => {
-  // if (quantityBox.classList.contains('disabled')) {
-  //   quantityBox.classList.remove('disabled');
-  //   freeQuantity.classList.remove('active');
-  // }
   if (freebtn.classList.contains('active')) {
     freebtn.classList.remove('active');
     paidbtn.classList.add('active');
@@ -63,15 +69,13 @@ paidbtn.addEventListener('click', () => {
 });
 
 freebtn.addEventListener('click', () => {
-  // if (freebtn.classList.contains('active')) {
-  //   quantityBox.classList.add('disabled');
-  //   freeQuantity.classList.add('active');
-  // }
   if (paidbtn.classList.contains('active')) {
     paidbtn.classList.remove('active');
     freebtn.classList.add('active');
     quantityBox.classList.add('disabled');
     freeQuantity.classList.add('active');
+    max.classList.add('disabled');
+    min.classList.add('disabled');
   }
   num = 1;
   document.getElementById('count').innerHTML = num;
